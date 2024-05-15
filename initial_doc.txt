@@ -1,0 +1,29 @@
+Initial Analysis Document.
+
+1. read filename from cmd line 
+2. open file, read line by line 
+3. switch case :(start)
+    3.1 Heading (1-6) - link(any)
+    3.2 Unformatted text - link(any)
+    3.3 Blank - end unformatted if any
+
+Observations:
+1. heading is only 1 line
+2. Anything is a paragraph except a heading(# )
+3. end a paragraph (if any) as soon as you encounter a blank line or heading
+4. link can span multiple lines
+
+test cases:
+1. heading alone
+2. unformatted alone
+3. link alone
+4. link with heading/unformatted (start, end, between)
+
+Edge cases:
+1. heading without space - ##mm
+2. link with missing [,],(,):
+    only the url considered as href and text and all other content is <p>
+3. remove unnecessary blank lines
+
+Assumptions:
+1. Not consider(edge case 2) as link - https://google.com
