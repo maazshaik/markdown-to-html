@@ -1,5 +1,5 @@
 import pytest
-from markdown_converter import MarkdownConverter
+from to_html import MarkdownConverter
 
 @pytest.fixture
 def converter():

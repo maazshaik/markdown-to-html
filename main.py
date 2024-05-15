@@ -1,5 +1,5 @@
-import argparse, os, sys
-from markdown_converter import MarkdownConverter
+import argparse, os
+from markdown_converter.to_html import MarkdownConverter
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

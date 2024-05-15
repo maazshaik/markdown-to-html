@@ -22,7 +22,7 @@ Markdown is a lightweight markup language with plain-text formatting syntax. Thi
 
 No installation required. Simply include the `MarkdownConverter` class in your Python project. A sample main.py has been implemented to highlight this.
 
-## Usage of the converter class
+## Usage of the Markdown Converter class
 
 ```python
 from markdown_converter import MarkdownConverter
